@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:text="Enter Your Income"
+        style="@style/TextView"
+        />
+    <EditText
+        android:id="@+id/Income"
+        style="@style/EditText" />
+
+    <Button
+        android:id="@+id/Calculate"
+        android:text="Calculate"
+        style="@style/TextView"
+        />
+
+    <TextView
+        android:text="Your yearly tax is:"
+        style="@style/TextView"
+
+        />
+    <TextView
+        android:id="@+id/Tax"
+        style="@style/TextView"
+        />
+
+</LinearLayout>
